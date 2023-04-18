@@ -1,0 +1,27 @@
+.section1 {
+    background-color: #FCC509;
+    width: 100%;
+    height: 100%;
+}
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Card {
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 10px;
+}
+.imgcard {
+  width: 150px;
+  height: 200px;
+  transition: 0.3s;
+  transform: scale(1);
+  cursor: pointer;
+  object-fit: cover;
+}
+.imgcard:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
